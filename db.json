@@ -1,0 +1,688 @@
+{
+  "meta": {
+    "created": "2026-10-24T21:12:32.103Z",
+    "seq": 500,
+    "version": 1
+  },
+  "users": [
+    {
+      "id": "u_maria",
+      "role": "farmer",
+      "name": "Maria Alvarez",
+      "org": "Alvarez Family Farm",
+      "zip": "93215",
+      "city": "Delano",
+      "lat": 35.7688,
+      "lng": -119.2471,
+      "budget": 0
+    },
+    {
+      "id": "u_dev",
+      "role": "farmer",
+      "name": "Dev Singh",
+      "org": "Singh Orchards",
+      "zip": "93701",
+      "city": "Fresno",
+      "lat": 36.7378,
+      "lng": -119.7871,
+      "budget": 0
+    },
+    {
+      "id": "u_chue",
+      "role": "farmer",
+      "name": "Chue Lee",
+      "org": "Lee Family Farm",
+      "zip": "93640",
+      "city": "Mendota",
+      "lat": 36.7536,
+      "lng": -120.3816,
+      "budget": 0
+    },
+    {
+      "id": "u_rosa",
+      "role": "buyer",
+      "name": "Rosa Medina",
+      "org": "Valley Fresh Market",
+      "zip": "93701",
+      "city": "Fresno",
+      "lat": 36.7378,
+      "lng": -119.7871,
+      "budget": 1400
+    },
+    {
+      "id": "u_tom",
+      "role": "buyer",
+      "name": "Tom Becker",
+      "org": "Casa Verde Kitchen",
+      "zip": "93291",
+      "city": "Visalia",
+      "lat": 36.3302,
+      "lng": -119.2921,
+      "budget": 900
+    },
+    {
+      "id": "u_dana",
+      "role": "buyer",
+      "name": "Dana Whitfield",
+      "org": "Central Valley Food Bank",
+      "zip": "93701",
+      "city": "Fresno",
+      "lat": 36.7378,
+      "lng": -119.7871,
+      "budget": 2600
+    },
+    {
+      "id": "u_store",
+      "role": "store",
+      "name": "Sam Ortega",
+      "org": "SaveMore Grocery #412",
+      "zip": "93701",
+      "city": "Fresno",
+      "lat": 36.7378,
+      "lng": -119.7871,
+      "budget": 0
+    },
+    {
+      "id": "u_store2",
+      "role": "store",
+      "name": "Marisol Vega",
+      "org": "Fresno Grocery Outlet",
+      "zip": "93701",
+      "city": "Fresno",
+      "lat": 36.7378,
+      "lng": -119.7871,
+      "budget": 0
+    },
+    {
+      "id": "dev-arnav",
+      "role": "farmer",
+      "name": "Arnav",
+      "org": "Arnav Farms",
+      "zip": "94536",
+      "city": "Fresno",
+      "lat": 36.7378,
+      "lng": -119.7871,
+      "budget": 1000,
+      "email": "arnav@farmago.dev"
+    }
+  ],
+  "listings": [
+    {
+      "id": "l_romaine",
+      "ownerId": "u_maria",
+      "mode": "sale",
+      "crop": "romaine",
+      "qtyLb": 800,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2026-10-27T21:12:32.103Z",
+      "closesAt": "2026-10-25T21:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 0.95,
+      "askPrice": 0.48,
+      "floorPrice": 0.35,
+      "fairValue": 0.47,
+      "baselineValue": 0.47,
+      "band": {
+        "min": 0.4,
+        "max": 0.54
+      },
+      "grade": "B",
+      "defects": [
+        "slight edge bruising"
+      ],
+      "confidence": 0.86,
+      "rationale": "Romaine lettuce graded B. Freshness ×0.66, quantity ×0.93.",
+      "photo": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=960&q=82",
+      "photoVerified": true,
+      "status": "live",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93215",
+        "city": "Delano",
+        "lat": 35.7688,
+        "lng": -119.2471
+      }
+    },
+    {
+      "id": "l_straw",
+      "ownerId": "u_maria",
+      "mode": "sale",
+      "crop": "strawberries",
+      "qtyLb": 300,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2026-10-26T21:12:32.103Z",
+      "closesAt": "2026-10-25T03:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 1.85,
+      "askPrice": 1.24,
+      "floorPrice": 0.94,
+      "fairValue": 1.18,
+      "baselineValue": 1.18,
+      "band": {
+        "min": 1.01,
+        "max": 1.36
+      },
+      "grade": "A",
+      "defects": [
+        "none visible"
+      ],
+      "confidence": 0.86,
+      "rationale": "Strawberries graded A. Freshness ×0.7, quantity ×0.96.",
+      "photo": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=960&q=82",
+      "photoVerified": true,
+      "status": "live",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93215",
+        "city": "Delano",
+        "lat": 35.7688,
+        "lng": -119.2471
+      }
+    },
+    {
+      "id": "l_almond",
+      "ownerId": "u_dev",
+      "mode": "sale",
+      "crop": "almonds",
+      "qtyLb": 2000,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2027-01-22T21:12:32.103Z",
+      "closesAt": "2027-01-20T21:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 2.4,
+      "askPrice": 1.83,
+      "floorPrice": 1.56,
+      "fairValue": 1.83,
+      "baselineValue": 1.83,
+      "band": {
+        "min": 1.55,
+        "max": 2.1
+      },
+      "grade": "A",
+      "defects": [
+        "none visible"
+      ],
+      "confidence": 0.86,
+      "rationale": "Almonds graded A. Freshness ×0.85, quantity ×0.9.",
+      "photo": "https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg?auto=compress&cs=tinysrgb&w=960",
+      "photoVerified": true,
+      "status": "live",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93701",
+        "city": "Fresno",
+        "lat": 36.7378,
+        "lng": -119.7871
+      }
+    },
+    {
+      "id": "l_tomato",
+      "ownerId": "u_dev",
+      "mode": "sale",
+      "crop": "tomatoes",
+      "qtyLb": 1200,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2026-10-30T21:12:32.103Z",
+      "closesAt": "2026-10-28T21:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 0.78,
+      "askPrice": 0.47,
+      "floorPrice": 0.34,
+      "fairValue": 0.48,
+      "baselineValue": 0.48,
+      "band": {
+        "min": 0.41,
+        "max": 0.56
+      },
+      "grade": "B",
+      "defects": [
+        "uneven ripening"
+      ],
+      "confidence": 0.86,
+      "rationale": "Tomatoes graded B. Freshness ×0.8, quantity ×0.91.",
+      "photo": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=960&q=82",
+      "photoVerified": true,
+      "status": "live",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93701",
+        "city": "Fresno",
+        "lat": 36.7378,
+        "lng": -119.7871
+      }
+    },
+    {
+      "id": "l_spinach",
+      "ownerId": "u_chue",
+      "mode": "sale",
+      "crop": "spinach",
+      "qtyLb": 250,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2026-10-28T21:12:32.103Z",
+      "closesAt": "2026-10-26T21:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 1.1,
+      "askPrice": 0.65,
+      "floorPrice": 0.49,
+      "fairValue": 0.65,
+      "baselineValue": 0.65,
+      "band": {
+        "min": 0.55,
+        "max": 0.75
+      },
+      "grade": "B",
+      "defects": [
+        "none visible"
+      ],
+      "confidence": 0.86,
+      "rationale": "Spinach graded B. Freshness ×0.8, quantity ×0.97.",
+      "photo": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=960&q=82",
+      "photoVerified": true,
+      "status": "live",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93640",
+        "city": "Mendota",
+        "lat": 36.7536,
+        "lng": -120.3816
+      }
+    },
+    {
+      "id": "l_corn",
+      "ownerId": "u_chue",
+      "mode": "sale",
+      "crop": "corn",
+      "qtyLb": 900,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2026-10-27T21:12:32.103Z",
+      "closesAt": "2026-10-25T21:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 0.42,
+      "askPrice": 0.23,
+      "floorPrice": 0.17,
+      "fairValue": 0.23,
+      "baselineValue": 0.23,
+      "band": {
+        "min": 0.19,
+        "max": 0.26
+      },
+      "grade": "B",
+      "defects": [
+        "none visible"
+      ],
+      "confidence": 0.86,
+      "rationale": "Sweet corn graded B. Freshness ×0.76, quantity ×0.92.",
+      "photo": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=960&q=82",
+      "photoVerified": true,
+      "status": "live",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93640",
+        "city": "Mendota",
+        "lat": 36.7536,
+        "lng": -120.3816
+      }
+    },
+    {
+      "id": "l_grapes",
+      "ownerId": "u_dev",
+      "mode": "sale",
+      "crop": "grapes",
+      "qtyLb": 1500,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2026-11-05T21:12:32.103Z",
+      "closesAt": "2026-11-03T21:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 1.35,
+      "askPrice": 1.18,
+      "floorPrice": 0.9,
+      "fairValue": 1.12,
+      "baselineValue": 1.12,
+      "band": {
+        "min": 0.95,
+        "max": 1.29
+      },
+      "grade": "A",
+      "defects": [
+        "none visible"
+      ],
+      "confidence": 0.86,
+      "rationale": "Table grapes graded A. Freshness ×0.91, quantity ×0.91.",
+      "photo": "https://images.unsplash.com/photo-1537640538966-79f369143f8f?auto=format&fit=crop&w=960&q=82",
+      "photoVerified": true,
+      "status": "live",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93701",
+        "city": "Fresno",
+        "lat": 36.7378,
+        "lng": -119.7871
+      }
+    },
+    {
+      "id": "l_peppers",
+      "ownerId": "u_maria",
+      "mode": "sale",
+      "crop": "peppers",
+      "qtyLb": 600,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2026-11-01T21:12:32.103Z",
+      "closesAt": "2026-10-30T21:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 0.88,
+      "askPrice": 0.59,
+      "floorPrice": 0.44,
+      "fairValue": 0.59,
+      "baselineValue": 0.59,
+      "band": {
+        "min": 0.5,
+        "max": 0.67
+      },
+      "grade": "B",
+      "defects": [
+        "none visible"
+      ],
+      "confidence": 0.86,
+      "rationale": "Bell peppers graded B. Freshness ×0.88, quantity ×0.94.",
+      "photo": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=960&q=82",
+      "photoVerified": true,
+      "status": "live",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93215",
+        "city": "Delano",
+        "lat": 35.7688,
+        "lng": -119.2471
+      }
+    },
+    {
+      "id": "l_melon",
+      "ownerId": "u_chue",
+      "mode": "sale",
+      "crop": "melons",
+      "qtyLb": 400,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2026-10-29T21:12:32.103Z",
+      "closesAt": "2026-10-27T21:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 0.45,
+      "askPrice": 0.21,
+      "floorPrice": 0.16,
+      "fairValue": 0.21,
+      "baselineValue": 0.21,
+      "band": {
+        "min": 0.18,
+        "max": 0.24
+      },
+      "grade": "B",
+      "defects": [
+        "none visible"
+      ],
+      "confidence": 0.86,
+      "rationale": "Cantaloupe graded B. Freshness ×0.65, quantity ×0.95.",
+      "photo": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?auto=format&fit=crop&w=960&q=82",
+      "photoVerified": true,
+      "status": "awarded",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93640",
+        "city": "Mendota",
+        "lat": 36.7536,
+        "lng": -120.3816
+      }
+    },
+    {
+      "id": "l_orange",
+      "ownerId": "u_maria",
+      "mode": "sale",
+      "crop": "oranges",
+      "qtyLb": 700,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2026-11-07T21:12:32.103Z",
+      "closesAt": "2026-11-05T21:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 0.62,
+      "askPrice": 0.44,
+      "floorPrice": 0.34,
+      "fairValue": 0.44,
+      "baselineValue": 0.44,
+      "band": {
+        "min": 0.37,
+        "max": 0.51
+      },
+      "grade": "A",
+      "defects": [
+        "none visible"
+      ],
+      "confidence": 0.86,
+      "rationale": "Oranges graded A. Freshness ×0.8, quantity ×0.93.",
+      "photo": "https://images.unsplash.com/photo-1547514701-42782101795e?auto=format&fit=crop&w=960&q=82",
+      "photoVerified": true,
+      "status": "awarded",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93215",
+        "city": "Delano",
+        "lat": 35.7688,
+        "lng": -119.2471
+      }
+    },
+    {
+      "id": "l_oldcorn",
+      "ownerId": "u_dev",
+      "mode": "sale",
+      "crop": "corn",
+      "qtyLb": 300,
+      "harvestedAt": "2026-10-23T21:12:32.103Z",
+      "expiresAt": "2026-10-23T21:12:32.103Z",
+      "closesAt": "2026-10-25T03:12:32.103Z",
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "mrpPerLb": 0.42,
+      "askPrice": 0.11,
+      "floorPrice": 0.08,
+      "fairValue": 0.11,
+      "baselineValue": 0.11,
+      "band": {
+        "min": 0.09,
+        "max": 0.12
+      },
+      "grade": "C",
+      "defects": [
+        "none visible"
+      ],
+      "confidence": 0.86,
+      "rationale": "Sweet corn graded C. Freshness ×0.4, quantity ×0.96.",
+      "photo": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=960&q=82",
+      "photoVerified": true,
+      "status": "expired",
+      "relistedFrom": null,
+      "location": {
+        "zip": "93701",
+        "city": "Fresno",
+        "lat": 36.7378,
+        "lng": -119.7871
+      }
+    }
+  ],
+  "bids": [
+    {
+      "id": "b_seed1",
+      "listingId": "l_romaine",
+      "buyerId": "u_rosa",
+      "pricePerLb": 0.45,
+      "qtyLb": 800,
+      "createdAt": "2026-10-24T16:12:32.103Z",
+      "status": "active"
+    },
+    {
+      "id": "b_seed2",
+      "listingId": "l_romaine",
+      "buyerId": "u_dana",
+      "pricePerLb": 0.52,
+      "qtyLb": 800,
+      "createdAt": "2026-10-24T19:12:32.103Z",
+      "status": "active"
+    },
+    {
+      "id": "b_seed3",
+      "listingId": "l_straw",
+      "buyerId": "u_tom",
+      "pricePerLb": 1.3,
+      "qtyLb": 300,
+      "createdAt": "2026-10-24T18:12:32.103Z",
+      "status": "active"
+    },
+    {
+      "id": "b_seed4",
+      "listingId": "l_tomato",
+      "buyerId": "u_dana",
+      "pricePerLb": 0.64,
+      "qtyLb": 1200,
+      "createdAt": "2026-10-24T15:12:32.103Z",
+      "status": "active"
+    },
+    {
+      "id": "b_seed5",
+      "listingId": "l_tomato",
+      "buyerId": "u_rosa",
+      "pricePerLb": 0.7,
+      "qtyLb": 1200,
+      "createdAt": "2026-10-24T20:12:32.103Z",
+      "status": "active"
+    },
+    {
+      "id": "b_seed6",
+      "listingId": "l_corn",
+      "buyerId": "u_dana",
+      "pricePerLb": 0.3,
+      "qtyLb": 900,
+      "createdAt": "2026-10-24T17:12:32.103Z",
+      "status": "active"
+    },
+    {
+      "id": "b_seed7",
+      "listingId": "l_melon",
+      "buyerId": "u_tom",
+      "pricePerLb": 0.38,
+      "qtyLb": 400,
+      "createdAt": "2026-10-24T01:12:32.103Z",
+      "status": "lost"
+    },
+    {
+      "id": "b_seed8",
+      "listingId": "l_melon",
+      "buyerId": "u_rosa",
+      "pricePerLb": 0.42,
+      "qtyLb": 400,
+      "createdAt": "2026-10-24T02:12:32.103Z",
+      "status": "won"
+    },
+    {
+      "id": "b_seed9",
+      "listingId": "l_orange",
+      "buyerId": "u_rosa",
+      "pricePerLb": 0.5,
+      "qtyLb": 700,
+      "createdAt": "2026-10-23T15:12:32.103Z",
+      "status": "lost"
+    },
+    {
+      "id": "b_seed10",
+      "listingId": "l_orange",
+      "buyerId": "u_dana",
+      "pricePerLb": 0.55,
+      "qtyLb": 700,
+      "createdAt": "2026-10-23T16:12:32.103Z",
+      "status": "won"
+    }
+  ],
+  "orders": [
+    {
+      "id": "o_seed1",
+      "listingId": "l_melon",
+      "winnerId": "u_rosa",
+      "finalPricePerLb": 0.42,
+      "qtyLb": 400,
+      "total": 168,
+      "fulfillment": "pending_pickup",
+      "payment": "unpaid",
+      "paidAt": null,
+      "receivedAt": null,
+      "createdAt": "2026-10-24T02:12:32.103Z"
+    },
+    {
+      "id": "o_seed2",
+      "listingId": "l_orange",
+      "winnerId": "u_dana",
+      "finalPricePerLb": 0.55,
+      "qtyLb": 700,
+      "total": 385,
+      "fulfillment": "completed",
+      "payment": "paid",
+      "paidAt": "2026-10-23T19:12:32.103Z",
+      "receivedAt": "2026-10-23T18:12:32.103Z",
+      "createdAt": "2026-10-23T16:12:32.103Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m_seed1",
+      "listingId": "l_romaine",
+      "senderId": "u_dana",
+      "body": "Can we pick up Thursday morning? We have a refrigerated van.",
+      "createdAt": "2026-10-24T18:12:32.103Z"
+    },
+    {
+      "id": "m_seed2",
+      "listingId": "l_romaine",
+      "senderId": "u_maria",
+      "body": "Thursday 7am works. Barn is off Road 24, I will send the pin.",
+      "createdAt": "2026-10-24T18:42:32.103Z"
+    }
+  ],
+  "rescueLoads": [
+    {
+      "id": "r_seed1",
+      "storeId": "u_store",
+      "title": "Culled mixed greens — wilted but sealed",
+      "description": "Six crates pulled from the floor this morning. Sealed bags, past sell-by date.",
+      "qtyLb": 320,
+      "feedSafe": false,
+      "compostSafe": true,
+      "freightCredit": 80,
+      "photo": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=960&q=82",
+      "status": "open",
+      "claimedBy": null,
+      "createdAt": "2026-10-24T16:12:32.103Z"
+    },
+    {
+      "id": "r_seed2",
+      "storeId": "u_store2",
+      "title": "Bruised melons — 3 bins",
+      "description": "Dropped pallet. Still firm inside, fine for livestock or compost.",
+      "qtyLb": 240,
+      "feedSafe": true,
+      "compostSafe": true,
+      "freightCredit": 60,
+      "photo": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?auto=format&fit=crop&w=960&q=82",
+      "status": "open",
+      "claimedBy": null,
+      "createdAt": "2026-10-24T12:12:32.103Z"
+    },
+    {
+      "id": "r_seed3",
+      "storeId": "u_store",
+      "title": "Bread and produce sweepings",
+      "description": "End-of-day organics. Compost only, mixed packaging removed.",
+      "qtyLb": 180,
+      "feedSafe": false,
+      "compostSafe": true,
+      "freightCredit": 45,
+      "photo": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=960&q=82",
+      "status": "open",
+      "claimedBy": null,
+      "createdAt": "2026-10-24T09:12:32.103Z"
+    }
+  ],
+  "appraisals": {}
+}

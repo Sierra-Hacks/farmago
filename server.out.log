@@ -1,0 +1,6 @@
+
+  Harvest Share
+  → http://localhost:4173
+  → press "Load sample data" in the header to reset the demo
+  → AI provider: heuristic stub (add GEMINI_API_KEY to switch)
+
